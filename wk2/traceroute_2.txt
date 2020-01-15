@@ -1,0 +1,3 @@
+traceroute 165.227.38.98
+traceroute to 165.227.38.98 (165.227.38.98), 30 hops max, 60 byte packets
+ 1  ubuntu-s-1vcpu-1gb-tor1-01 (165.227.38.98)  0.040 ms  0.016 ms  0.012 ms

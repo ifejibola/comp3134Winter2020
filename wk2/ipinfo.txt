@@ -1,0 +1,24 @@
+google:
+IP Address: 172.217.7.14
+
+Geolocation: US (United States), CA, California, 94043 Mountain View
+
+Facebook:
+IP Address: 31.13.71.36
+
+Geolocation: IE (Ireland), N/A, N/A, N/A N/A
+
+socket.io:
+IP Address: 3.210.90.207
+
+Geolocation: US (United States), N/A, N/A, N/A N/A 
+
+mongodb:
+IP Address: 54.175.147.155
+
+Geolocation: US (United States), VA, Virginia, 20149 Ashburn
+
+netflix:
+IP Address: 54.173.169.115
+
+Geolocation: US (United States), VA, Virginia, 20149 Ashburn

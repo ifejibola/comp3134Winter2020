@@ -1,0 +1,43 @@
+nmap 165.227.38.98
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:12 UTC
+Nmap scan report for ubuntu-s-1vcpu-1gb-tor1-01 (165.227.38.98)
+Host is up (0.0000070s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 1.63 seconds
+
+nmap -p 80 165.227.38.98
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:14 UTC
+Nmap scan report for ubuntu-s-1vcpu-1gb-tor1-01 (165.227.38.98)
+Host is up (0.000027s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.26 seconds
+
+
+nmap -p 80-8000 165.227.38.98
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:15 UTC
+Nmap scan report for ubuntu-s-1vcpu-1gb-tor1-01 (165.227.38.98)
+Host is up (0.0000060s latency).
+All 7921 scanned ports on ubuntu-s-1vcpu-1gb-tor1-01 (165.227.38.98) are closed
+
+Nmap done: 1 IP address (1 host up) scanned in 2.15 seconds
+
+
+nmap -f 165.227.38.98
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:16 UTC
+Nmap scan report for ubuntu-s-1vcpu-1gb-tor1-01 (165.227.38.98)
+Host is up (0.000034s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 1.59 seconds
