@@ -1,0 +1,32 @@
+traceroute www.henselphelps.com
+traceroute to www.henselphelps.com (208.42.251.94), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  10.78.4.46 (10.78.4.46)  1.870 ms 10.78.4.48 (10.78.4.48)  1.606 ms 10.78.4.40 (10.78.4.40)  1.435 ms
+ 3  138.197.249.90 (138.197.249.90)  1.373 ms 138.197.249.86 (138.197.249.86)  1.399 ms 138.197.249.90 (138.197.249.90)  1.347 ms
+ 4  138.197.249.71 (138.197.249.71)  1.679 ms  1.687 ms zayo.ip4.torontointernetxchange.net (206.108.35.76)  1.972 ms
+ 5  ae13.mpr1.tor3.ca.zip.zayo.com (64.125.26.137)  2.122 ms zayo.ip4.torontointernetxchange.net (206.108.35.76)  1.604 ms ae13.mpr1.tor3.ca.zip.zayo.com (64.125.26.137)  2.096 ms
+ 6  * * *
+ 7  ae5.cs1.den5.us.eth.zayo.com (64.125.29.19)  30.686 ms * *
+ 8  ae5.cs1.den5.us.eth.zayo.com (64.125.29.19)  30.418 ms  30.508 ms  30.495 ms
+ 9  ae26.mpr1.den1.us.zip.zayo.com (64.125.31.241)  31.046 ms  30.820 ms 208.185.23.10.t01440-06.above.net (208.185.23.10)  31.226 ms
+10  208.185.23.10.t01440-06.above.net (208.185.23.10)  31.298 ms 41.ae2.cen01-mls-dc-core-b.cen01.latisys.net (205.214.65.142)  30.872 ms  30.871 ms
+11  vl22.cen01-mls-dc-dist-b.cen01.latisys.net (205.214.65.177)  39.171 ms vl23.cen01-mls-dc-dist-b.cen01.latisys.net (205.214.65.173)  39.150 ms 41.ae2.cen01-mls-dc-core-b.cen01.latisys.net (205.214.65.142)  30.761 ms
+12  * vl22.cen01-mls-dc-dist-b.cen01.latisys.net (205.214.65.177)  39.041 ms vl23.cen01-mls-dc-dist-b.cen01.latisys.net (205.214.65.173)  39.064 ms
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *

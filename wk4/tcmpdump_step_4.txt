@@ -1,0 +1,8 @@
+tcpdump -D
+1.eth0 [Up, Running]
+2.eth1 [Up, Running]
+3.any (Pseudo-device that captures on all interfaces) [Up, Running]
+4.lo [Up, Running, Loopback]
+5.nflog (Linux netfilter log (NFLOG) interface)
+6.nfqueue (Linux netfilter queue (NFQUEUE) interface)
+7.usbmon1 (USB bus number 1)

@@ -1,0 +1,115 @@
+ nmap -p 21 www.henselphelps.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:35 UTC
+Nmap scan report for www.henselphelps.com (208.42.251.94)
+Host is up (0.038s latency).
+rDNS record for 208.42.251.94: 208-42-251-94.static.eng01.latisys.net
+
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.82 seconds
+
+{% comment %} SSH {% endcomment %}
+nmap -p 22 www.henselphelps.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:37 UTC
+Nmap scan report for www.henselphelps.com (208.42.251.94)
+Host is up (0.034s latency).
+rDNS record for 208.42.251.94: 208-42-251-94.static.eng01.latisys.net
+
+PORT   STATE    SERVICE
+22/tcp filtered ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 0.60 seconds
+
+{% comment %} TELNET {% endcomment %}
+nmap -p 23 www.henselphelps.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:38 UTC
+Nmap scan report for www.henselphelps.com (208.42.251.94)
+Host is up (0.033s latency).
+rDNS record for 208.42.251.94: 208-42-251-94.static.eng01.latisys.net
+
+PORT   STATE    SERVICE
+23/tcp filtered telnet
+
+Nmap done: 1 IP address (1 host up) scanned in 0.58 seconds
+
+{% comment %} SMTP {% endcomment %}
+nmap -p 25 www.henselphelps.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:39 UTC
+Nmap scan report for www.henselphelps.com (208.42.251.94)
+Host is up (0.034s latency).
+rDNS record for 208.42.251.94: 208-42-251-94.static.eng01.latisys.net
+
+PORT   STATE    SERVICE
+25/tcp filtered smtp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.61 seconds
+
+{% comment %} DNS {% endcomment %}
+nmap -p 53 www.henselphelps.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:40 UTC
+Nmap scan report for www.henselphelps.com (208.42.251.94)
+Host is up (0.034s latency).
+rDNS record for 208.42.251.94: 208-42-251-94.static.eng01.latisys.net
+
+PORT   STATE    SERVICE
+53/tcp filtered domain
+
+Nmap done: 1 IP address (1 host up) scanned in 0.60 seconds
+
+{% comment %} http {% endcomment %}
+nmap -p 80 www.henselphelps.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:41 UTC
+Nmap scan report for www.henselphelps.com (208.42.251.94)
+Host is up (0.033s latency).
+rDNS record for 208.42.251.94: 208-42-251-94.static.eng01.latisys.net
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.46 seconds
+
+{% comment %} POP3 {% endcomment %}
+nmap -p 110 www.henselphelps.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:42 UTC
+Nmap scan report for www.henselphelps.com (208.42.251.94)
+Host is up (0.033s latency).
+rDNS record for 208.42.251.94: 208-42-251-94.static.eng01.latisys.net
+
+PORT    STATE    SERVICE
+110/tcp filtered pop3
+
+Nmap done: 1 IP address (1 host up) scanned in 0.60 seconds
+
+{% comment %} IMAP {% endcomment %}
+nmap -p 993 www.henselphelps.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:43 UTC
+Nmap scan report for www.henselphelps.com (208.42.251.94)
+Host is up (0.034s latency).
+rDNS record for 208.42.251.94: 208-42-251-94.static.eng01.latisys.net
+
+PORT    STATE    SERVICE
+993/tcp filtered imaps
+
+Nmap done: 1 IP address (1 host up) scanned in 0.61 seconds
+
+{% comment %} MYSQL {% endcomment %}
+nmap -p 3306 www.henselphelps.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:43 UTC
+Nmap scan report for www.henselphelps.com (208.42.251.94)
+Host is up (0.033s latency).
+rDNS record for 208.42.251.94: 208-42-251-94.static.eng01.latisys.net
+
+PORT     STATE    SERVICE
+3306/tcp filtered mysql
+
+Nmap done: 1 IP address (1 host up) scanned in 0.63 seconds

@@ -1,0 +1,24 @@
+henselphelps
+
+Determine the following information (6 marks) 
+number of employees : 2,727 (year : 2008) current estimate : 3,200
+CEO : President & CEO - Michael J. Choutka
+CFO : Jenny Scholz
+President : Michael J. Choutka
+current job postings :
+    Senior Infrastructure Engineer (Req #: 21734) 
+    Denver, Westminster, Boulder, Greeley, Ft Collins, CO - Posted on 01/21/20
+    Technology Infrastructure Project Manager (Req #: 22569) 
+    Nashville, TN - Posted on 01/21/20
+    Field Engineer / Office Engineer - Southeast (Req #: 21702) 
+    Orlando, FL - Posted on 01/21/20
+    Field Engineer / Office Engineer - SOCAL (Req #: 22537) 
+    Los Angeles, CA - Posted on 01/20/20
+    Systems Associate (Req #: 22567) 
+    Sacramento, CA - Posted on 01/20/20
+    Solutions Associate (Req #: 22566) 
+    Sacramento, CA - Posted on 01/20/20
+    Carpenter (Req #: 22563) 
+    austin, TX - Posted on 01/20/20
+
+headquarter locations: Greeley, Colorado, United States

@@ -1,0 +1,11 @@
+tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+16:11:14.474182 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.44901: Flags [P.], seq 2006805401:2006805509, ack 2982620253, win 309, options [nop,nop,TS val 941117549 ecr 1439090961], length 108
+16:11:14.474245 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.44901: Flags [P.], seq 108:144, ack 1, win 309, options [nop,nop,TS val 941117549 ecr 1439090961], length 36
+16:11:14.474289 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.44901: Flags [P.], seq 144:252, ack 1, win 309, options [nop,nop,TS val 941117549 ecr 1439090961], length 108
+16:11:14.474322 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.44901: Flags [P.], seq 252:288, ack 1, win 309, options [nop,nop,TS val 941117549 ecr 1439090961], length 36
+16:11:14.475416 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.44901: Flags [P.], seq 288:524, ack 1, win 309, options [nop,nop,TS val 941117550 ecr 1439090961], length 236
+5 packets captured
+10 packets received by filter
+1 packet dropped by kernel

@@ -1,0 +1,9 @@
+iptables -L -v
+Chain INPUT (policy ACCEPT 449 packets, 52070 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 409 packets, 69260 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
